@@ -18,8 +18,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let imageTapRecognizer = UITapGestureRecognizer(target: self, action: Selector("imageTapped:"))
-        self.sampleImageView.userInteractionEnabled = true
+        let imageTapRecognizer = UITapGestureRecognizer(target: self, action: #selector(ViewController.imageTapped(_:)))
+        self.sampleImageView.isUserInteractionEnabled = true
         self.sampleImageView.addGestureRecognizer(imageTapRecognizer)
     }
 
@@ -28,9 +28,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func imageTapped(recognizer:UITapGestureRecognizer) {
+    func imageTapped(_ recognizer:UITapGestureRecognizer) {
         let imageViewer = YHImageViewer()
-        imageViewer.backgroundColor = UIColor.blackColor()
+        imageViewer.backgroundColor = UIColor.black
         self.imageViewer = imageViewer
         imageViewer.show(sampleImageView)
     }

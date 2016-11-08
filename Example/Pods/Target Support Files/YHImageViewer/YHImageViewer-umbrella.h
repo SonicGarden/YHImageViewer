@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_YHImageViewer_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_YHImageViewer_TestsVersionString[];
+FOUNDATION_EXPORT double YHImageViewerVersionNumber;
+FOUNDATION_EXPORT const unsigned char YHImageViewerVersionString[];
 

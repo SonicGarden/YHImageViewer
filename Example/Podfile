@@ -1,12 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
+swift_version = '3.0'
 use_frameworks!
 
-target 'YHImageViewer_Example', :exclusive => true do
+target 'YHImageViewer_Example' do
   pod "YHImageViewer", :path => "../"
 end
 
-target 'YHImageViewer_Tests', :exclusive => true do
+target 'YHImageViewer_Tests' do
   pod "YHImageViewer", :path => "../"
-
-  
 end

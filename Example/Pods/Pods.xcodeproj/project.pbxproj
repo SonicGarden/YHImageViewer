@@ -7,144 +7,106 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20855515274136E6FD5EC762 /* Pods-YHImageViewer_Example-YHImageViewer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9AEA0DD48FF8FD483FD599B /* Pods-YHImageViewer_Example-YHImageViewer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CFA8B4B8F7B8A6FFEE423E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FD6AC2F5D5C46B2A6C91F9 /* Foundation.framework */; };
-		30801DA59D112E5FAF8158D7 /* Pods-YHImageViewer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF35192E4FF5736B9848F1E /* Pods-YHImageViewer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32062940D0B226E957B97189 /* Pods-YHImageViewer_Example-YHImageViewer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB6CB913A9B4E727EE29E1B /* Pods-YHImageViewer_Example-YHImageViewer-dummy.m */; };
-		4109539F9C445A603728273E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FD6AC2F5D5C46B2A6C91F9 /* Foundation.framework */; };
-		5D16B0D4893BEDA2FDD09A37 /* Pods-YHImageViewer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A69B61EC5D1165FE6AEC2EE /* Pods-YHImageViewer_Example-dummy.m */; };
-		777F0751248AE25F41DFD49B /* YHImageViewer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A4004C931E45381CD66A122F /* YHImageViewer.bundle */; };
-		7E3714BA39E7DED464F694C4 /* YHImageViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520B7AAF74EC5ECF3E8A7940 /* YHImageViewer.swift */; };
-		893B300184251C90AE295BFB /* Pods-YHImageViewer_Tests-YHImageViewer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 503F166938661746041C148A /* Pods-YHImageViewer_Tests-YHImageViewer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		900AE9307B67C21E5194C7B1 /* YHImageViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520B7AAF74EC5ECF3E8A7940 /* YHImageViewer.swift */; };
-		90F9153A1F35E4E8424FF010 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FD6AC2F5D5C46B2A6C91F9 /* Foundation.framework */; };
-		AF7F700C5317BA203726FEAF /* YHImageViewer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6EEB38E89BC653DDDDF51210 /* YHImageViewer.bundle */; };
-		CE91E1CA4BDF048A32C1FA22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FD6AC2F5D5C46B2A6C91F9 /* Foundation.framework */; };
-		E6FBCAE0757B58D807B34609 /* Pods-YHImageViewer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8EE1B14B72BDA2EC9AA94B /* Pods-YHImageViewer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA0D09CEB497B88F013A421B /* Pods-YHImageViewer_Tests-YHImageViewer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E41D9147CEF5718C0A91F22D /* Pods-YHImageViewer_Tests-YHImageViewer-dummy.m */; };
-		FD362217EEDFEF917E152F5B /* Pods-YHImageViewer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C343035C89B34BC5BB516 /* Pods-YHImageViewer_Tests-dummy.m */; };
+		2D69F548C1900094F6A89C3F58E31797 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		36E0CCA78DEED0B55047A6388BBEF351 /* Pods-YHImageViewer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 642446CCFACA85A271CBF3C01424288D /* Pods-YHImageViewer_Tests-dummy.m */; };
+		39F3F7BBAB8707F7780D978CF0904F2B /* Pods-YHImageViewer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF583372A3153FF9FB47BF2288A2A085 /* Pods-YHImageViewer_Example-dummy.m */; };
+		464B3709408644192E21A175B8C38CAB /* YHImageViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1940BA80FD04A9D3C08622E221272B67 /* YHImageViewer.swift */; };
+		5E950069887D4B4C062744D45F42FFF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6539078598FC01FD269868D9C55E8E37 /* YHImageViewer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 53C48A2B6B99EAF9578E87D95D9FC2C0 /* YHImageViewer.bundle */; };
+		8B02E7A4044B4159D43B38744D02AAED /* Pods-YHImageViewer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A486EA2063A00A83783EE8479A3DF5AB /* Pods-YHImageViewer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A7F711E69D53D72001C75175601B727 /* Pods-YHImageViewer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9270363D1B98E229BA9B6F76F3E5807 /* Pods-YHImageViewer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0EE1F58C61A886600096EC2AEA3BAE6 /* YHImageViewer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 966A6E4DC10B7A388FA929ED500F7775 /* YHImageViewer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F48C542167545C08B644FBCD0F4B46C3 /* YHImageViewer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A303626EB523887BB5E155717EF47F10 /* YHImageViewer-dummy.m */; };
+		FB8394788DBC00AA2D6FF6F31727742B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		51DFB697AC6C58DD3E0DA5D5 /* PBXContainerItemProxy */ = {
+		01D32DBAEC19E55165E721A7FE4F72A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E9861BC40059C6B421824CB6 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7464F16E967BDC695835CFD4;
-			remoteInfo = "Pods-YHImageViewer_Example-YHImageViewer";
+			remoteGlobalIDString = AA8C9E4BBADA76C6340A2F709D7A1E3D;
+			remoteInfo = "YHImageViewer-YHImageViewer";
 		};
-		9BD6928D5CF253AC8D8EEBE3 /* PBXContainerItemProxy */ = {
+		02661C09ACADD8EA95ACE80C29E6C52D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E9861BC40059C6B421824CB6 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2071F8935E117636AED3F7BB;
-			remoteInfo = "Pods-YHImageViewer_Tests-YHImageViewer";
+			remoteGlobalIDString = 0993CC4A54778E1A00375C62C18F263D;
+			remoteInfo = YHImageViewer;
 		};
-		D4BA8009C993B1E424C50528 /* PBXContainerItemProxy */ = {
+		5C4D5A3FFC4B2788BEF3FC20061B724C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E9861BC40059C6B421824CB6 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6E1D1C831085E36DB68B3C92;
-			remoteInfo = "Pods-YHImageViewer_Example-YHImageViewer-YHImageViewer";
-		};
-		E2F2AFC2C9AD6EBA90E7F5AC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E9861BC40059C6B421824CB6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 56A28DA264E1BC80466B6A8B;
-			remoteInfo = "Pods-YHImageViewer_Tests-YHImageViewer-YHImageViewer";
+			remoteGlobalIDString = 0993CC4A54778E1A00375C62C18F263D;
+			remoteInfo = YHImageViewer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		037A31B5D7DCE12CD630AF0C /* Pods-YHImageViewer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YHImageViewer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		04FCCC372FA07E98DAD0929D /* Pods-YHImageViewer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YHImageViewer_Example.modulemap"; sourceTree = "<group>"; };
-		26A4A43265B1FAA10F20733C /* Pods-YHImageViewer_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHImageViewer_Example-environment.h"; sourceTree = "<group>"; };
-		2B8CF350C1A1601368C7B25A /* YHImageViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YHImageViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		363BFD24CD9749F0924AEA08 /* Pods-YHImageViewer_Tests-YHImageViewer-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHImageViewer_Tests-YHImageViewer-Private.xcconfig"; path = "../Pods-YHImageViewer_Tests-YHImageViewer/Pods-YHImageViewer_Tests-YHImageViewer-Private.xcconfig"; sourceTree = "<group>"; };
-		3B9C343035C89B34BC5BB516 /* Pods-YHImageViewer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHImageViewer_Tests-dummy.m"; sourceTree = "<group>"; };
-		3D397597C3D55914D596E08B /* Pods-YHImageViewer_Tests-YHImageViewer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHImageViewer_Tests-YHImageViewer.xcconfig"; path = "../Pods-YHImageViewer_Tests-YHImageViewer/Pods-YHImageViewer_Tests-YHImageViewer.xcconfig"; sourceTree = "<group>"; };
-		40E1C498BB4C9DF2D3C6B9E4 /* Pods-YHImageViewer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHImageViewer_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		503F166938661746041C148A /* Pods-YHImageViewer_Tests-YHImageViewer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-YHImageViewer_Tests-YHImageViewer-umbrella.h"; path = "../Pods-YHImageViewer_Tests-YHImageViewer/Pods-YHImageViewer_Tests-YHImageViewer-umbrella.h"; sourceTree = "<group>"; };
-		520B7AAF74EC5ECF3E8A7940 /* YHImageViewer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = YHImageViewer.swift; sourceTree = "<group>"; };
-		58EC60A497F66880FD02E836 /* Pods-YHImageViewer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHImageViewer_Tests-resources.sh"; sourceTree = "<group>"; };
-		5CA5CF61119D50A3D9BBCA9B /* Pods-YHImageViewer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHImageViewer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		63CC1E4B7AEFCBB5E22F9FD4 /* Pods-YHImageViewer_Example-YHImageViewer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHImageViewer_Example-YHImageViewer.xcconfig"; sourceTree = "<group>"; };
-		6EEB38E89BC653DDDDF51210 /* YHImageViewer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHImageViewer.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EF35192E4FF5736B9848F1E /* Pods-YHImageViewer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHImageViewer_Example-umbrella.h"; sourceTree = "<group>"; };
-		760C7CC28F627AAE759E7D3D /* Pods-YHImageViewer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHImageViewer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		761A246E81C63D560D4BE4A5 /* Pods_YHImageViewer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHImageViewer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B8D0C450DE070EAAB3803AC /* Pods-YHImageViewer_Example-YHImageViewer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHImageViewer_Example-YHImageViewer-prefix.pch"; sourceTree = "<group>"; };
-		7E0199050C8B6D9EFB57325C /* Pods_YHImageViewer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHImageViewer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		80993BF0D6896AC7FAACCBF0 /* Pods-YHImageViewer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHImageViewer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8A69B61EC5D1165FE6AEC2EE /* Pods-YHImageViewer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHImageViewer_Example-dummy.m"; sourceTree = "<group>"; };
-		912A2865F1AE7F3C06AFB625 /* Pods-YHImageViewer_Example-YHImageViewer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YHImageViewer_Example-YHImageViewer.modulemap"; sourceTree = "<group>"; };
-		92272E275773A7D32AED3BD1 /* Pods-YHImageViewer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHImageViewer_Example.release.xcconfig"; sourceTree = "<group>"; };
-		92455854C446A5418554FEDC /* Pods-YHImageViewer_Example-YHImageViewer-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHImageViewer_Example-YHImageViewer-Private.xcconfig"; sourceTree = "<group>"; };
-		947D4FCA2B6B902B06FC7787 /* Pods-YHImageViewer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHImageViewer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		97AE0949D4CFA08D66202723 /* Pods-YHImageViewer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YHImageViewer_Tests.modulemap"; sourceTree = "<group>"; };
-		985C3E528B33CB91F5ADDB0D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9EE0D3CF69D9050320EFB8C4 /* Pods-YHImageViewer_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHImageViewer_Tests-environment.h"; sourceTree = "<group>"; };
-		A29E6EF34B87898691E23F19 /* Pods-YHImageViewer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHImageViewer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A4004C931E45381CD66A122F /* YHImageViewer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHImageViewer.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB876B2B80F27873006193A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BDB6CB913A9B4E727EE29E1B /* Pods-YHImageViewer_Example-YHImageViewer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHImageViewer_Example-YHImageViewer-dummy.m"; sourceTree = "<group>"; };
-		C3382A1CF65CE0F001F8404A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-YHImageViewer_Tests-YHImageViewer/Info.plist"; sourceTree = "<group>"; };
-		C916492B04BC2B02330F4761 /* Pods-YHImageViewer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YHImageViewer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CB660FDBFF691CC1996D31AB /* Pods-YHImageViewer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHImageViewer_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CF179906B8DCBEF12CAE80DD /* Pods-YHImageViewer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHImageViewer_Example-resources.sh"; sourceTree = "<group>"; };
-		D9AEA0DD48FF8FD483FD599B /* Pods-YHImageViewer_Example-YHImageViewer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHImageViewer_Example-YHImageViewer-umbrella.h"; sourceTree = "<group>"; };
-		DB8EE1B14B72BDA2EC9AA94B /* Pods-YHImageViewer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHImageViewer_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E031A30AB372086DDD590C19 /* YHImageViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YHImageViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E41D9147CEF5718C0A91F22D /* Pods-YHImageViewer_Tests-YHImageViewer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-YHImageViewer_Tests-YHImageViewer-dummy.m"; path = "../Pods-YHImageViewer_Tests-YHImageViewer/Pods-YHImageViewer_Tests-YHImageViewer-dummy.m"; sourceTree = "<group>"; };
-		E7CBC5F150AE4392DD73D07D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F07A356D8E1CA476B4CCE90A /* Pods-YHImageViewer_Tests-YHImageViewer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-YHImageViewer_Tests-YHImageViewer.modulemap"; path = "../Pods-YHImageViewer_Tests-YHImageViewer/Pods-YHImageViewer_Tests-YHImageViewer.modulemap"; sourceTree = "<group>"; };
-		F2012CE4500E4CE0F21AD1C5 /* Pods-YHImageViewer_Tests-YHImageViewer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-YHImageViewer_Tests-YHImageViewer-prefix.pch"; path = "../Pods-YHImageViewer_Tests-YHImageViewer/Pods-YHImageViewer_Tests-YHImageViewer-prefix.pch"; sourceTree = "<group>"; };
-		F62E07C82DA0ABF1AAE50FBC /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F6FD6AC2F5D5C46B2A6C91F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0D3878CCCEEF46FB0BA181C3091F66EE /* Pods-YHImageViewer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHImageViewer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0DE3AB3404D0050EAD6B23EB6D4A2473 /* YHImageViewer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHImageViewer-prefix.pch"; sourceTree = "<group>"; };
+		1940BA80FD04A9D3C08622E221272B67 /* YHImageViewer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = YHImageViewer.swift; sourceTree = "<group>"; };
+		216749FAC40B31C13476F4BC41F014D0 /* Pods-YHImageViewer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHImageViewer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		390AA6871F06B5B24918909D02E8DDD8 /* Pods-YHImageViewer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHImageViewer_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3BF05FD7EA05CA7A1EF73CEA5EA071C5 /* Pods-YHImageViewer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHImageViewer_Example-resources.sh"; sourceTree = "<group>"; };
+		3FD02CF11258CF2223DE53EF7ED987AE /* Pods-YHImageViewer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHImageViewer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		489D7FD8BC5713C1BB838DB6B3D98D7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5368CDD1D2EE6072FB9DE7ED66862AB6 /* YHImageViewer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHImageViewer.xcconfig; sourceTree = "<group>"; };
+		53C48A2B6B99EAF9578E87D95D9FC2C0 /* YHImageViewer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = YHImageViewer.bundle; path = YHImageViewer.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		54B6F186ED27B28BA095C9C8BF057B9C /* Pods_YHImageViewer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YHImageViewer_Tests.framework; path = "Pods-YHImageViewer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59120C26E100D1DB707735F5E6E04B61 /* Pods-YHImageViewer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHImageViewer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		601385277291CBB79D9A89BB70B88BC0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		642446CCFACA85A271CBF3C01424288D /* Pods-YHImageViewer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHImageViewer_Tests-dummy.m"; sourceTree = "<group>"; };
+		78C71DF53B164C2AEA4C8794D2CEA6F9 /* Pods-YHImageViewer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHImageViewer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		966A6E4DC10B7A388FA929ED500F7775 /* YHImageViewer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHImageViewer-umbrella.h"; sourceTree = "<group>"; };
+		9C49A8756E074C4D30A3B06AC18ABFAD /* Pods-YHImageViewer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YHImageViewer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A303626EB523887BB5E155717EF47F10 /* YHImageViewer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YHImageViewer-dummy.m"; sourceTree = "<group>"; };
+		A3420D55D3374B2CEC816CD8FF291E41 /* YHImageViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YHImageViewer.framework; path = YHImageViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A46E3C3D1131899FE3E1855016A6BA01 /* Pods_YHImageViewer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YHImageViewer_Example.framework; path = "Pods-YHImageViewer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A486EA2063A00A83783EE8479A3DF5AB /* Pods-YHImageViewer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHImageViewer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BB1E385E75D57C7EA123EE7A7CCEF73C /* Pods-YHImageViewer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHImageViewer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C760E64DDF523DABC66DB31614535B06 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D6C052160AF9CF21F36AE44A9F7B39F1 /* ResourceBundle-YHImageViewer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-YHImageViewer-Info.plist"; sourceTree = "<group>"; };
+		D9270363D1B98E229BA9B6F76F3E5807 /* Pods-YHImageViewer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHImageViewer_Example-umbrella.h"; sourceTree = "<group>"; };
+		E18DD6F9565E36D3868B574BD14513AC /* Pods-YHImageViewer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YHImageViewer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E80A71FE8D3E7F306DE658EC5B4E718A /* Pods-YHImageViewer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHImageViewer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E9606D686C5ED75BC043CBB620A9FE8F /* Pods-YHImageViewer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHImageViewer_Tests-resources.sh"; sourceTree = "<group>"; };
+		EF583372A3153FF9FB47BF2288A2A085 /* Pods-YHImageViewer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHImageViewer_Example-dummy.m"; sourceTree = "<group>"; };
+		F2364BEB025E2AC3F2C62AB394D657E2 /* Pods-YHImageViewer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YHImageViewer_Example.modulemap"; sourceTree = "<group>"; };
+		F423833844CF7BB68977AC26B12FB766 /* YHImageViewer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YHImageViewer.modulemap; sourceTree = "<group>"; };
+		FAA58A3A0C4CF331D514A5D17ACCD034 /* Pods-YHImageViewer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YHImageViewer_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		018D5C6CFF6961BFB664C05D /* Frameworks */ = {
+		28FF18B8AFA4F7B35A3AA6FD9425CAE6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CFA8B4B8F7B8A6FFEE423E2 /* Foundation.framework in Frameworks */,
+				5E950069887D4B4C062744D45F42FFF0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D4ED8F1DCD62F4A54BB366A /* Frameworks */ = {
+		3984900C9B0B4BC3881C6255602E7E87 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE91E1CA4BDF048A32C1FA22 /* Foundation.framework in Frameworks */,
+				FB8394788DBC00AA2D6FF6F31727742B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6BB47B1163716E9667B6D5B3 /* Frameworks */ = {
+		736B7E09913DAACC6A9C3522F160CFC9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D69F548C1900094F6A89C3F58E31797 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A46BCC3D6BE45152B6757550 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				90F9153A1F35E4E8424FF010 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5DD58021E22C4BF0CF078A8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4109539F9C445A603728273E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C6B7B5BB522DF4B2D41F965A /* Frameworks */ = {
+		DF27786A7F74F474480516630F77CE91 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -154,350 +116,281 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		25AB7E1413E329D957F670F4 /* Pods-YHImageViewer_Tests */ = {
+		0F04A610FB202671EF009D63C1122A29 /* Pods-YHImageViewer_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				985C3E528B33CB91F5ADDB0D /* Info.plist */,
-				97AE0949D4CFA08D66202723 /* Pods-YHImageViewer_Tests.modulemap */,
-				037A31B5D7DCE12CD630AF0C /* Pods-YHImageViewer_Tests-acknowledgements.markdown */,
-				760C7CC28F627AAE759E7D3D /* Pods-YHImageViewer_Tests-acknowledgements.plist */,
-				3B9C343035C89B34BC5BB516 /* Pods-YHImageViewer_Tests-dummy.m */,
-				9EE0D3CF69D9050320EFB8C4 /* Pods-YHImageViewer_Tests-environment.h */,
-				40E1C498BB4C9DF2D3C6B9E4 /* Pods-YHImageViewer_Tests-frameworks.sh */,
-				58EC60A497F66880FD02E836 /* Pods-YHImageViewer_Tests-resources.sh */,
-				DB8EE1B14B72BDA2EC9AA94B /* Pods-YHImageViewer_Tests-umbrella.h */,
-				80993BF0D6896AC7FAACCBF0 /* Pods-YHImageViewer_Tests.debug.xcconfig */,
-				A29E6EF34B87898691E23F19 /* Pods-YHImageViewer_Tests.release.xcconfig */,
+				489D7FD8BC5713C1BB838DB6B3D98D7E /* Info.plist */,
+				FAA58A3A0C4CF331D514A5D17ACCD034 /* Pods-YHImageViewer_Tests.modulemap */,
+				9C49A8756E074C4D30A3B06AC18ABFAD /* Pods-YHImageViewer_Tests-acknowledgements.markdown */,
+				78C71DF53B164C2AEA4C8794D2CEA6F9 /* Pods-YHImageViewer_Tests-acknowledgements.plist */,
+				642446CCFACA85A271CBF3C01424288D /* Pods-YHImageViewer_Tests-dummy.m */,
+				390AA6871F06B5B24918909D02E8DDD8 /* Pods-YHImageViewer_Tests-frameworks.sh */,
+				E9606D686C5ED75BC043CBB620A9FE8F /* Pods-YHImageViewer_Tests-resources.sh */,
+				A486EA2063A00A83783EE8479A3DF5AB /* Pods-YHImageViewer_Tests-umbrella.h */,
+				BB1E385E75D57C7EA123EE7A7CCEF73C /* Pods-YHImageViewer_Tests.debug.xcconfig */,
+				216749FAC40B31C13476F4BC41F014D0 /* Pods-YHImageViewer_Tests.release.xcconfig */,
 			);
 			name = "Pods-YHImageViewer_Tests";
 			path = "Target Support Files/Pods-YHImageViewer_Tests";
 			sourceTree = "<group>";
 		};
-		28290E78E9BDA50FDFEAEA77 /* Pod */ = {
+		4A1375C4B609F5995EDB20C430F4D6C8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A5B3D1C5ADE9E0AD6147BF9C /* Classes */,
+				601385277291CBB79D9A89BB70B88BC0 /* Info.plist */,
+				D6C052160AF9CF21F36AE44A9F7B39F1 /* ResourceBundle-YHImageViewer-Info.plist */,
+				F423833844CF7BB68977AC26B12FB766 /* YHImageViewer.modulemap */,
+				5368CDD1D2EE6072FB9DE7ED66862AB6 /* YHImageViewer.xcconfig */,
+				A303626EB523887BB5E155717EF47F10 /* YHImageViewer-dummy.m */,
+				0DE3AB3404D0050EAD6B23EB6D4A2473 /* YHImageViewer-prefix.pch */,
+				966A6E4DC10B7A388FA929ED500F7775 /* YHImageViewer-umbrella.h */,
 			);
-			path = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YHImageViewer";
 			sourceTree = "<group>";
 		};
-		48FAFE7A4F9C7DFA78D698AA = {
+		546977D5B4EC4A1B79A28EB114F532B7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F62E07C82DA0ABF1AAE50FBC /* Podfile */,
-				9119E788A05E030083C87C3F /* Development Pods */,
-				A1475CA6D2607CA7F26E8CBE /* Frameworks */,
-				F3CCD41F9CB6507B454BC126 /* Products */,
-				FC2E96AC295B98AB5F9421DD /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		624CA42663DECBBA6AB9AD34 /* YHImageViewer */ = {
-			isa = PBXGroup;
-			children = (
-				28290E78E9BDA50FDFEAEA77 /* Pod */,
-				BE1411A8CEA448D49C4CBDAD /* Support Files */,
-			);
-			name = YHImageViewer;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		6BA3E500ADB7357712E8B372 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				F6FD6AC2F5D5C46B2A6C91F9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		9119E788A05E030083C87C3F /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				624CA42663DECBBA6AB9AD34 /* YHImageViewer */,
+				A0D55894D80683533958241E513BF5C0 /* YHImageViewer */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		A1475CA6D2607CA7F26E8CBE /* Frameworks */ = {
+		5FA555705FF6F1F393C4952760C67553 /* Pods-YHImageViewer_Example */ = {
 			isa = PBXGroup;
 			children = (
-				6BA3E500ADB7357712E8B372 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A5B3D1C5ADE9E0AD6147BF9C /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				520B7AAF74EC5ECF3E8A7940 /* YHImageViewer.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		BE1411A8CEA448D49C4CBDAD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E7CBC5F150AE4392DD73D07D /* Info.plist */,
-				C3382A1CF65CE0F001F8404A /* Info.plist */,
-				912A2865F1AE7F3C06AFB625 /* Pods-YHImageViewer_Example-YHImageViewer.modulemap */,
-				63CC1E4B7AEFCBB5E22F9FD4 /* Pods-YHImageViewer_Example-YHImageViewer.xcconfig */,
-				92455854C446A5418554FEDC /* Pods-YHImageViewer_Example-YHImageViewer-Private.xcconfig */,
-				BDB6CB913A9B4E727EE29E1B /* Pods-YHImageViewer_Example-YHImageViewer-dummy.m */,
-				7B8D0C450DE070EAAB3803AC /* Pods-YHImageViewer_Example-YHImageViewer-prefix.pch */,
-				D9AEA0DD48FF8FD483FD599B /* Pods-YHImageViewer_Example-YHImageViewer-umbrella.h */,
-				F07A356D8E1CA476B4CCE90A /* Pods-YHImageViewer_Tests-YHImageViewer.modulemap */,
-				3D397597C3D55914D596E08B /* Pods-YHImageViewer_Tests-YHImageViewer.xcconfig */,
-				363BFD24CD9749F0924AEA08 /* Pods-YHImageViewer_Tests-YHImageViewer-Private.xcconfig */,
-				E41D9147CEF5718C0A91F22D /* Pods-YHImageViewer_Tests-YHImageViewer-dummy.m */,
-				F2012CE4500E4CE0F21AD1C5 /* Pods-YHImageViewer_Tests-YHImageViewer-prefix.pch */,
-				503F166938661746041C148A /* Pods-YHImageViewer_Tests-YHImageViewer-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-YHImageViewer_Example-YHImageViewer";
-			sourceTree = "<group>";
-		};
-		BF13BCE255A1A861FAF0B35D /* Pods-YHImageViewer_Example */ = {
-			isa = PBXGroup;
-			children = (
-				BB876B2B80F27873006193A1 /* Info.plist */,
-				04FCCC372FA07E98DAD0929D /* Pods-YHImageViewer_Example.modulemap */,
-				C916492B04BC2B02330F4761 /* Pods-YHImageViewer_Example-acknowledgements.markdown */,
-				5CA5CF61119D50A3D9BBCA9B /* Pods-YHImageViewer_Example-acknowledgements.plist */,
-				8A69B61EC5D1165FE6AEC2EE /* Pods-YHImageViewer_Example-dummy.m */,
-				26A4A43265B1FAA10F20733C /* Pods-YHImageViewer_Example-environment.h */,
-				CB660FDBFF691CC1996D31AB /* Pods-YHImageViewer_Example-frameworks.sh */,
-				CF179906B8DCBEF12CAE80DD /* Pods-YHImageViewer_Example-resources.sh */,
-				6EF35192E4FF5736B9848F1E /* Pods-YHImageViewer_Example-umbrella.h */,
-				947D4FCA2B6B902B06FC7787 /* Pods-YHImageViewer_Example.debug.xcconfig */,
-				92272E275773A7D32AED3BD1 /* Pods-YHImageViewer_Example.release.xcconfig */,
+				C760E64DDF523DABC66DB31614535B06 /* Info.plist */,
+				F2364BEB025E2AC3F2C62AB394D657E2 /* Pods-YHImageViewer_Example.modulemap */,
+				E18DD6F9565E36D3868B574BD14513AC /* Pods-YHImageViewer_Example-acknowledgements.markdown */,
+				59120C26E100D1DB707735F5E6E04B61 /* Pods-YHImageViewer_Example-acknowledgements.plist */,
+				EF583372A3153FF9FB47BF2288A2A085 /* Pods-YHImageViewer_Example-dummy.m */,
+				E80A71FE8D3E7F306DE658EC5B4E718A /* Pods-YHImageViewer_Example-frameworks.sh */,
+				3BF05FD7EA05CA7A1EF73CEA5EA071C5 /* Pods-YHImageViewer_Example-resources.sh */,
+				D9270363D1B98E229BA9B6F76F3E5807 /* Pods-YHImageViewer_Example-umbrella.h */,
+				0D3878CCCEEF46FB0BA181C3091F66EE /* Pods-YHImageViewer_Example.debug.xcconfig */,
+				3FD02CF11258CF2223DE53EF7ED987AE /* Pods-YHImageViewer_Example.release.xcconfig */,
 			);
 			name = "Pods-YHImageViewer_Example";
 			path = "Target Support Files/Pods-YHImageViewer_Example";
 			sourceTree = "<group>";
 		};
-		F3CCD41F9CB6507B454BC126 /* Products */ = {
+		6CE3BBDB6093C7CD0C5835CA9FBD8B7F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7E0199050C8B6D9EFB57325C /* Pods_YHImageViewer_Example.framework */,
-				761A246E81C63D560D4BE4A5 /* Pods_YHImageViewer_Tests.framework */,
-				6EEB38E89BC653DDDDF51210 /* YHImageViewer.bundle */,
-				A4004C931E45381CD66A122F /* YHImageViewer.bundle */,
-				2B8CF350C1A1601368C7B25A /* YHImageViewer.framework */,
-				E031A30AB372086DDD590C19 /* YHImageViewer.framework */,
+				5FA555705FF6F1F393C4952760C67553 /* Pods-YHImageViewer_Example */,
+				0F04A610FB202671EF009D63C1122A29 /* Pods-YHImageViewer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		775007E69A12D8A3B9EFDA89334349CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A46E3C3D1131899FE3E1855016A6BA01 /* Pods_YHImageViewer_Example.framework */,
+				54B6F186ED27B28BA095C9C8BF057B9C /* Pods_YHImageViewer_Tests.framework */,
+				53C48A2B6B99EAF9578E87D95D9FC2C0 /* YHImageViewer.bundle */,
+				A3420D55D3374B2CEC816CD8FF291E41 /* YHImageViewer.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FC2E96AC295B98AB5F9421DD /* Targets Support Files */ = {
+		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				BF13BCE255A1A861FAF0B35D /* Pods-YHImageViewer_Example */,
-				25AB7E1413E329D957F670F4 /* Pods-YHImageViewer_Tests */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				546977D5B4EC4A1B79A28EB114F532B7 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				775007E69A12D8A3B9EFDA89334349CC /* Products */,
+				6CE3BBDB6093C7CD0C5835CA9FBD8B7F /* Targets Support Files */,
 			);
-			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A0D55894D80683533958241E513BF5C0 /* YHImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				D0E8AB81EB17A71A1E55EA54B4C10CB1 /* Pod */,
+				4A1375C4B609F5995EDB20C430F4D6C8 /* Support Files */,
+			);
+			name = YHImageViewer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CADF0A515866AD24E178692824C750B5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1940BA80FD04A9D3C08622E221272B67 /* YHImageViewer.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D0E8AB81EB17A71A1E55EA54B4C10CB1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CADF0A515866AD24E178692824C750B5 /* Classes */,
+			);
+			name = Pod;
+			path = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1BEAE46DCF6E870D0D770320 /* Headers */ = {
+		71CA4AFD8A67FEB50019BA39AD70977F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6FBCAE0757B58D807B34609 /* Pods-YHImageViewer_Tests-umbrella.h in Headers */,
+				8B02E7A4044B4159D43B38744D02AAED /* Pods-YHImageViewer_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A88E8A15383B707DBFCC6E68 /* Headers */ = {
+		8C09A6B30BF82C4E4B7E76AC8EED0E74 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30801DA59D112E5FAF8158D7 /* Pods-YHImageViewer_Example-umbrella.h in Headers */,
+				9A7F711E69D53D72001C75175601B727 /* Pods-YHImageViewer_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A935E659FBF6073B8780A4C2 /* Headers */ = {
+		9BD83D050FC374A0778CF7F8B5271968 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				893B300184251C90AE295BFB /* Pods-YHImageViewer_Tests-YHImageViewer-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3E6901B4B13CEA291AD1423 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				20855515274136E6FD5EC762 /* Pods-YHImageViewer_Example-YHImageViewer-umbrella.h in Headers */,
+				B0EE1F58C61A886600096EC2AEA3BAE6 /* YHImageViewer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		101C1CFA077C430A14400C3A /* Pods-YHImageViewer_Tests */ = {
+		0993CC4A54778E1A00375C62C18F263D /* YHImageViewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2180EBA2EEC62DCCE197EB68 /* Build configuration list for PBXNativeTarget "Pods-YHImageViewer_Tests" */;
+			buildConfigurationList = D65986450FEE711C212D3DF082634EBD /* Build configuration list for PBXNativeTarget "YHImageViewer" */;
 			buildPhases = (
-				E26935E437C41CD0ED451136 /* Sources */,
-				1D4ED8F1DCD62F4A54BB366A /* Frameworks */,
-				1BEAE46DCF6E870D0D770320 /* Headers */,
+				D6119A63BF63F06F28817C6596B05D26 /* Sources */,
+				28FF18B8AFA4F7B35A3AA6FD9425CAE6 /* Frameworks */,
+				6BF96148CE1D4448D5D1BF4BC552E4FA /* Resources */,
+				9BD83D050FC374A0778CF7F8B5271968 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				86C26932DE6CDE9DBE6329B4 /* PBXTargetDependency */,
+				24A83F039202342098E386B6C574FF31 /* PBXTargetDependency */,
+			);
+			name = YHImageViewer;
+			productName = YHImageViewer;
+			productReference = A3420D55D3374B2CEC816CD8FF291E41 /* YHImageViewer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		87912C6A6524EC17804A6A21F3078B80 /* Pods-YHImageViewer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CFAAD1736E7DE96D8BB28116929BEFD /* Build configuration list for PBXNativeTarget "Pods-YHImageViewer_Tests" */;
+			buildPhases = (
+				4290D2D7712DA31AE51CE3404771F764 /* Sources */,
+				3984900C9B0B4BC3881C6255602E7E87 /* Frameworks */,
+				71CA4AFD8A67FEB50019BA39AD70977F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				407610057C80C675067F21F0794B6AF8 /* PBXTargetDependency */,
 			);
 			name = "Pods-YHImageViewer_Tests";
 			productName = "Pods-YHImageViewer_Tests";
-			productReference = 761A246E81C63D560D4BE4A5 /* Pods_YHImageViewer_Tests.framework */;
+			productReference = 54B6F186ED27B28BA095C9C8BF057B9C /* Pods_YHImageViewer_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2071F8935E117636AED3F7BB /* Pods-YHImageViewer_Tests-YHImageViewer */ = {
+		AA8C9E4BBADA76C6340A2F709D7A1E3D /* YHImageViewer-YHImageViewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 08A2747EE57D83737464442E /* Build configuration list for PBXNativeTarget "Pods-YHImageViewer_Tests-YHImageViewer" */;
+			buildConfigurationList = 0BC5F967FEEDBDD0C04E7C889095A07E /* Build configuration list for PBXNativeTarget "YHImageViewer-YHImageViewer" */;
 			buildPhases = (
-				683F864FA76B5F9FCC5105E1 /* Sources */,
-				A5DD58021E22C4BF0CF078A8 /* Frameworks */,
-				F36D768C06A85FFEADD2D5E8 /* Resources */,
-				A935E659FBF6073B8780A4C2 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CEB482335BDB3FD3AE6D4C66 /* PBXTargetDependency */,
-			);
-			name = "Pods-YHImageViewer_Tests-YHImageViewer";
-			productName = "Pods-YHImageViewer_Tests-YHImageViewer";
-			productReference = 2B8CF350C1A1601368C7B25A /* YHImageViewer.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		56A28DA264E1BC80466B6A8B /* Pods-YHImageViewer_Tests-YHImageViewer-YHImageViewer */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A724E75873724A1684F19F31 /* Build configuration list for PBXNativeTarget "Pods-YHImageViewer_Tests-YHImageViewer-YHImageViewer" */;
-			buildPhases = (
-				3728EABCFDECF654404468E4 /* Sources */,
-				6BB47B1163716E9667B6D5B3 /* Frameworks */,
-				FA4FD1FDD483A2AB8BAB7C44 /* Resources */,
+				32EC424FF88B148734CE3AA8627CA8A0 /* Sources */,
+				DF27786A7F74F474480516630F77CE91 /* Frameworks */,
+				DD991AD7D884E761571525F8F25F39E3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-YHImageViewer_Tests-YHImageViewer-YHImageViewer";
-			productName = "Pods-YHImageViewer_Tests-YHImageViewer-YHImageViewer";
-			productReference = A4004C931E45381CD66A122F /* YHImageViewer.bundle */;
+			name = "YHImageViewer-YHImageViewer";
+			productName = "YHImageViewer-YHImageViewer";
+			productReference = 53C48A2B6B99EAF9578E87D95D9FC2C0 /* YHImageViewer.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		6E1D1C831085E36DB68B3C92 /* Pods-YHImageViewer_Example-YHImageViewer-YHImageViewer */ = {
+		D51375B83839E0CD7F4080D432057562 /* Pods-YHImageViewer_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78FF5F0369EEE460798E1728 /* Build configuration list for PBXNativeTarget "Pods-YHImageViewer_Example-YHImageViewer-YHImageViewer" */;
+			buildConfigurationList = D471CFA4276E4D69E8EF870E51C55F57 /* Build configuration list for PBXNativeTarget "Pods-YHImageViewer_Example" */;
 			buildPhases = (
-				E94BFFC3023A99175F3E6C82 /* Sources */,
-				C6B7B5BB522DF4B2D41F965A /* Frameworks */,
-				84EA86724BCDB7012D7365AA /* Resources */,
+				286DE1FCAA258281AF40FEAA5DDB8701 /* Sources */,
+				736B7E09913DAACC6A9C3522F160CFC9 /* Frameworks */,
+				8C09A6B30BF82C4E4B7E76AC8EED0E74 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "Pods-YHImageViewer_Example-YHImageViewer-YHImageViewer";
-			productName = "Pods-YHImageViewer_Example-YHImageViewer-YHImageViewer";
-			productReference = 6EEB38E89BC653DDDDF51210 /* YHImageViewer.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		6ED61AD0760E024293BDE7D2 /* Pods-YHImageViewer_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1B4F9A2F16CB29CD63DB485C /* Build configuration list for PBXNativeTarget "Pods-YHImageViewer_Example" */;
-			buildPhases = (
-				A9EEC3D0F87C9951608EB380 /* Sources */,
-				018D5C6CFF6961BFB664C05D /* Frameworks */,
-				A88E8A15383B707DBFCC6E68 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E28631C39CFD179DEB31F94C /* PBXTargetDependency */,
+				5635AB193CCC13D6A483EDA7B9491949 /* PBXTargetDependency */,
 			);
 			name = "Pods-YHImageViewer_Example";
 			productName = "Pods-YHImageViewer_Example";
-			productReference = 7E0199050C8B6D9EFB57325C /* Pods_YHImageViewer_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		7464F16E967BDC695835CFD4 /* Pods-YHImageViewer_Example-YHImageViewer */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 428190A9C7462D6500C3648D /* Build configuration list for PBXNativeTarget "Pods-YHImageViewer_Example-YHImageViewer" */;
-			buildPhases = (
-				949EDC26DBA4B74CEB93DAA3 /* Sources */,
-				A46BCC3D6BE45152B6757550 /* Frameworks */,
-				909F841EC8BA2E2F47AE2812 /* Resources */,
-				E3E6901B4B13CEA291AD1423 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				39CC075F2C236554A3A3FF64 /* PBXTargetDependency */,
-			);
-			name = "Pods-YHImageViewer_Example-YHImageViewer";
-			productName = "Pods-YHImageViewer_Example-YHImageViewer";
-			productReference = E031A30AB372086DDD590C19 /* YHImageViewer.framework */;
+			productReference = A46E3C3D1131899FE3E1855016A6BA01 /* Pods_YHImageViewer_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E9861BC40059C6B421824CB6 /* Project object */ = {
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
 			};
-			buildConfigurationList = 78A78C66542613A8A5630B29 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 48FAFE7A4F9C7DFA78D698AA;
-			productRefGroup = F3CCD41F9CB6507B454BC126 /* Products */;
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 775007E69A12D8A3B9EFDA89334349CC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6ED61AD0760E024293BDE7D2 /* Pods-YHImageViewer_Example */,
-				7464F16E967BDC695835CFD4 /* Pods-YHImageViewer_Example-YHImageViewer */,
-				6E1D1C831085E36DB68B3C92 /* Pods-YHImageViewer_Example-YHImageViewer-YHImageViewer */,
-				101C1CFA077C430A14400C3A /* Pods-YHImageViewer_Tests */,
-				2071F8935E117636AED3F7BB /* Pods-YHImageViewer_Tests-YHImageViewer */,
-				56A28DA264E1BC80466B6A8B /* Pods-YHImageViewer_Tests-YHImageViewer-YHImageViewer */,
+				D51375B83839E0CD7F4080D432057562 /* Pods-YHImageViewer_Example */,
+				87912C6A6524EC17804A6A21F3078B80 /* Pods-YHImageViewer_Tests */,
+				0993CC4A54778E1A00375C62C18F263D /* YHImageViewer */,
+				AA8C9E4BBADA76C6340A2F709D7A1E3D /* YHImageViewer-YHImageViewer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		84EA86724BCDB7012D7365AA /* Resources */ = {
+		6BF96148CE1D4448D5D1BF4BC552E4FA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6539078598FC01FD269868D9C55E8E37 /* YHImageViewer.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		909F841EC8BA2E2F47AE2812 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AF7F700C5317BA203726FEAF /* YHImageViewer.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F36D768C06A85FFEADD2D5E8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				777F0751248AE25F41DFD49B /* YHImageViewer.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA4FD1FDD483A2AB8BAB7C44 /* Resources */ = {
+		DD991AD7D884E761571525F8F25F39E3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -507,180 +400,172 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3728EABCFDECF654404468E4 /* Sources */ = {
+		286DE1FCAA258281AF40FEAA5DDB8701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F3F7BBAB8707F7780D978CF0904F2B /* Pods-YHImageViewer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32EC424FF88B148734CE3AA8627CA8A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		683F864FA76B5F9FCC5105E1 /* Sources */ = {
+		4290D2D7712DA31AE51CE3404771F764 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA0D09CEB497B88F013A421B /* Pods-YHImageViewer_Tests-YHImageViewer-dummy.m in Sources */,
-				900AE9307B67C21E5194C7B1 /* YHImageViewer.swift in Sources */,
+				36E0CCA78DEED0B55047A6388BBEF351 /* Pods-YHImageViewer_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		949EDC26DBA4B74CEB93DAA3 /* Sources */ = {
+		D6119A63BF63F06F28817C6596B05D26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32062940D0B226E957B97189 /* Pods-YHImageViewer_Example-YHImageViewer-dummy.m in Sources */,
-				7E3714BA39E7DED464F694C4 /* YHImageViewer.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A9EEC3D0F87C9951608EB380 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D16B0D4893BEDA2FDD09A37 /* Pods-YHImageViewer_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E26935E437C41CD0ED451136 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FD362217EEDFEF917E152F5B /* Pods-YHImageViewer_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E94BFFC3023A99175F3E6C82 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				F48C542167545C08B644FBCD0F4B46C3 /* YHImageViewer-dummy.m in Sources */,
+				464B3709408644192E21A175B8C38CAB /* YHImageViewer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		39CC075F2C236554A3A3FF64 /* PBXTargetDependency */ = {
+		24A83F039202342098E386B6C574FF31 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-YHImageViewer_Example-YHImageViewer-YHImageViewer";
-			target = 6E1D1C831085E36DB68B3C92 /* Pods-YHImageViewer_Example-YHImageViewer-YHImageViewer */;
-			targetProxy = D4BA8009C993B1E424C50528 /* PBXContainerItemProxy */;
+			name = "YHImageViewer-YHImageViewer";
+			target = AA8C9E4BBADA76C6340A2F709D7A1E3D /* YHImageViewer-YHImageViewer */;
+			targetProxy = 01D32DBAEC19E55165E721A7FE4F72A2 /* PBXContainerItemProxy */;
 		};
-		86C26932DE6CDE9DBE6329B4 /* PBXTargetDependency */ = {
+		407610057C80C675067F21F0794B6AF8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-YHImageViewer_Tests-YHImageViewer";
-			target = 2071F8935E117636AED3F7BB /* Pods-YHImageViewer_Tests-YHImageViewer */;
-			targetProxy = 9BD6928D5CF253AC8D8EEBE3 /* PBXContainerItemProxy */;
+			name = YHImageViewer;
+			target = 0993CC4A54778E1A00375C62C18F263D /* YHImageViewer */;
+			targetProxy = 5C4D5A3FFC4B2788BEF3FC20061B724C /* PBXContainerItemProxy */;
 		};
-		CEB482335BDB3FD3AE6D4C66 /* PBXTargetDependency */ = {
+		5635AB193CCC13D6A483EDA7B9491949 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-YHImageViewer_Tests-YHImageViewer-YHImageViewer";
-			target = 56A28DA264E1BC80466B6A8B /* Pods-YHImageViewer_Tests-YHImageViewer-YHImageViewer */;
-			targetProxy = E2F2AFC2C9AD6EBA90E7F5AC /* PBXContainerItemProxy */;
-		};
-		E28631C39CFD179DEB31F94C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-YHImageViewer_Example-YHImageViewer";
-			target = 7464F16E967BDC695835CFD4 /* Pods-YHImageViewer_Example-YHImageViewer */;
-			targetProxy = 51DFB697AC6C58DD3E0DA5D5 /* PBXContainerItemProxy */;
+			name = YHImageViewer;
+			target = 0993CC4A54778E1A00375C62C18F263D /* YHImageViewer */;
+			targetProxy = 02661C09ACADD8EA95ACE80C29E6C52D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		14F882DCD85A252DFEF90347 /* Release */ = {
+		0ECCC368BFE2A7502141049B067D0C2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5368CDD1D2EE6072FB9DE7ED66862AB6 /* YHImageViewer.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		41DEBF0FD97625326DB0239B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-YHImageViewer_Example";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YHImageViewer";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/YHImageViewer/ResourceBundle-YHImageViewer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = YHImageViewer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
-		58D3BB5B8BDEE44E45F03F0B /* Debug */ = {
+		123C92074CA2E87EFAA4780476818AF3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80993BF0D6896AC7FAACCBF0 /* Pods-YHImageViewer_Tests.debug.xcconfig */;
+			baseConfigurationReference = 216749FAC40B31C13476F4BC41F014D0 /* Pods-YHImageViewer_Tests.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-YHImageViewer_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-YHImageViewer_Tests/Pods-YHImageViewer_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_YHImageViewer_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		592FD374CD06CAD565869D69 /* Release */ = {
+		3274EECE46CDE1313B73C9B48616C61F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92272E275773A7D32AED3BD1 /* Pods-YHImageViewer_Example.release.xcconfig */;
+			baseConfigurationReference = 5368CDD1D2EE6072FB9DE7ED66862AB6 /* YHImageViewer.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YHImageViewer/YHImageViewer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YHImageViewer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YHImageViewer/YHImageViewer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = YHImageViewer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46B3E85C8A99716E7CF8DAE621485049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FD02CF11258CF2223DE53EF7ED987AE /* Pods-YHImageViewer_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-YHImageViewer_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-YHImageViewer_Example/Pods-YHImageViewer_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_YHImageViewer_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -690,134 +575,11 @@
 			};
 			name = Release;
 		};
-		5A9D3C879536C9EF2EBC459E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 363BFD24CD9749F0924AEA08 /* Pods-YHImageViewer_Tests-YHImageViewer-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-YHImageViewer_Tests-YHImageViewer/Pods-YHImageViewer_Tests-YHImageViewer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-YHImageViewer_Tests-YHImageViewer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-YHImageViewer_Tests-YHImageViewer/Pods-YHImageViewer_Tests-YHImageViewer.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = YHImageViewer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		60CDD5170D336C41D9E2C4F5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92455854C446A5418554FEDC /* Pods-YHImageViewer_Example-YHImageViewer-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-YHImageViewer_Example-YHImageViewer/Pods-YHImageViewer_Example-YHImageViewer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-YHImageViewer_Example-YHImageViewer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-YHImageViewer_Example-YHImageViewer/Pods-YHImageViewer_Example-YHImageViewer.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = YHImageViewer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		71A015CDF2A9E5A9A714F5DC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-YHImageViewer_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = YHImageViewer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		9FF58A72AA20EBAA736099AA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 363BFD24CD9749F0924AEA08 /* Pods-YHImageViewer_Tests-YHImageViewer-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-YHImageViewer_Tests-YHImageViewer/Pods-YHImageViewer_Tests-YHImageViewer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-YHImageViewer_Tests-YHImageViewer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-YHImageViewer_Tests-YHImageViewer/Pods-YHImageViewer_Tests-YHImageViewer.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = YHImageViewer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A2C7EA24B52E8655E528C422 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A29E6EF34B87898691E23F19 /* Pods-YHImageViewer_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-YHImageViewer_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-YHImageViewer_Tests/Pods-YHImageViewer_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_YHImageViewer_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B7308C079AF1F7C51394D9A7 /* Debug */ = {
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -831,11 +593,54 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -848,83 +653,125 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		E7F080FDBFCF57B7BC678BA2 /* Release */ = {
+		A5C948A79D56EFA14F3D954B122FE788 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D3878CCCEEF46FB0BA181C3091F66EE /* Pods-YHImageViewer_Example.debug.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-YHImageViewer_Example";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = YHImageViewer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		E933D3195A9EEA1566DEEE9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-YHImageViewer_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = YHImageViewer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		F944473F9B9F27C26FEDB850 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92455854C446A5418554FEDC /* Pods-YHImageViewer_Example-YHImageViewer-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-YHImageViewer_Example-YHImageViewer/Pods-YHImageViewer_Example-YHImageViewer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-YHImageViewer_Example-YHImageViewer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-YHImageViewer_Example-YHImageViewer/Pods-YHImageViewer_Example-YHImageViewer.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = YHImageViewer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FD17F35A0B75EDC26FE4B8F7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 947D4FCA2B6B902B06FC7787 /* Pods-YHImageViewer_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-YHImageViewer_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-YHImageViewer_Example/Pods-YHImageViewer_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_YHImageViewer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ADCD0A872191921F234861758006A7E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5368CDD1D2EE6072FB9DE7ED66862AB6 /* YHImageViewer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YHImageViewer/YHImageViewer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YHImageViewer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YHImageViewer/YHImageViewer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = YHImageViewer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C40C2EE0509539E4C000C8EF3D86AC65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5368CDD1D2EE6072FB9DE7ED66862AB6 /* YHImageViewer.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YHImageViewer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/YHImageViewer/ResourceBundle-YHImageViewer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = YHImageViewer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E79A5E33625D2492397C8ECABB7F261F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB1E385E75D57C7EA123EE7A7CCEF73C /* Pods-YHImageViewer_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YHImageViewer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YHImageViewer_Tests/Pods-YHImageViewer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YHImageViewer_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -937,70 +784,52 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		08A2747EE57D83737464442E /* Build configuration list for PBXNativeTarget "Pods-YHImageViewer_Tests-YHImageViewer" */ = {
+		0BC5F967FEEDBDD0C04E7C889095A07E /* Build configuration list for PBXNativeTarget "YHImageViewer-YHImageViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5A9D3C879536C9EF2EBC459E /* Debug */,
-				9FF58A72AA20EBAA736099AA /* Release */,
+				C40C2EE0509539E4C000C8EF3D86AC65 /* Debug */,
+				0ECCC368BFE2A7502141049B067D0C2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1B4F9A2F16CB29CD63DB485C /* Build configuration list for PBXNativeTarget "Pods-YHImageViewer_Example" */ = {
+		2CFAAD1736E7DE96D8BB28116929BEFD /* Build configuration list for PBXNativeTarget "Pods-YHImageViewer_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD17F35A0B75EDC26FE4B8F7 /* Debug */,
-				592FD374CD06CAD565869D69 /* Release */,
+				E79A5E33625D2492397C8ECABB7F261F /* Debug */,
+				123C92074CA2E87EFAA4780476818AF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2180EBA2EEC62DCCE197EB68 /* Build configuration list for PBXNativeTarget "Pods-YHImageViewer_Tests" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				58D3BB5B8BDEE44E45F03F0B /* Debug */,
-				A2C7EA24B52E8655E528C422 /* Release */,
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		428190A9C7462D6500C3648D /* Build configuration list for PBXNativeTarget "Pods-YHImageViewer_Example-YHImageViewer" */ = {
+		D471CFA4276E4D69E8EF870E51C55F57 /* Build configuration list for PBXNativeTarget "Pods-YHImageViewer_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				60CDD5170D336C41D9E2C4F5 /* Debug */,
-				F944473F9B9F27C26FEDB850 /* Release */,
+				A5C948A79D56EFA14F3D954B122FE788 /* Debug */,
+				46B3E85C8A99716E7CF8DAE621485049 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78A78C66542613A8A5630B29 /* Build configuration list for PBXProject "Pods" */ = {
+		D65986450FEE711C212D3DF082634EBD /* Build configuration list for PBXNativeTarget "YHImageViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B7308C079AF1F7C51394D9A7 /* Debug */,
-				14F882DCD85A252DFEF90347 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		78FF5F0369EEE460798E1728 /* Build configuration list for PBXNativeTarget "Pods-YHImageViewer_Example-YHImageViewer-YHImageViewer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				41DEBF0FD97625326DB0239B /* Debug */,
-				E7F080FDBFCF57B7BC678BA2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A724E75873724A1684F19F31 /* Build configuration list for PBXNativeTarget "Pods-YHImageViewer_Tests-YHImageViewer-YHImageViewer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E933D3195A9EEA1566DEEE9A /* Debug */,
-				71A015CDF2A9E5A9A714F5DC /* Release */,
+				ADCD0A872191921F234861758006A7E0 /* Debug */,
+				3274EECE46CDE1313B73C9B48616C61F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E9861BC40059C6B421824CB6 /* Project object */;
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 }

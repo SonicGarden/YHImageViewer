@@ -8,24 +8,24 @@
 
 import UIKit
 
-public class YHImageViewer: NSObject {
+open class YHImageViewer: NSObject {
 
-    private var window:UIWindow!
-    private var backgroundView:UIView!
-    private var imageView:UIImageView!
-    private var startFrame:CGRect!
+    fileprivate var window:UIWindow!
+    fileprivate var backgroundView:UIView!
+    fileprivate var imageView:UIImageView!
+    fileprivate var startFrame:CGRect!
 
-    public var backgroundColor:UIColor?
-    public var fadeAnimationDuration:NSTimeInterval = 0.15
+    open var backgroundColor:UIColor?
+    open var fadeAnimationDuration:TimeInterval = 0.15
 
-    public func show(targetImageView:UIImageView) {
+    open func show(_ targetImageView:UIImageView) {
 
         // Create UIWindow
         let window = UIWindow()
-        window.frame = UIScreen.mainScreen().bounds
-        window.backgroundColor = UIColor.clearColor()
+        window.frame = UIScreen.main.bounds
+        window.backgroundColor = UIColor.clear
         window.windowLevel = UIWindowLevelAlert
-        let windowTapRecognizer = UITapGestureRecognizer(target: self, action: Selector("windowTapped:"))
+        let windowTapRecognizer = UITapGestureRecognizer(target: self, action: #selector(YHImageViewer.windowTapped(_:)))
         window.addGestureRecognizer(windowTapRecognizer)
         self.window = window
         window.makeKeyAndVisible()
@@ -36,7 +36,7 @@ public class YHImageViewer: NSObject {
         if let color = self.backgroundColor {
             backgroundView.backgroundColor = color
         } else {
-            backgroundView.backgroundColor = UIColor.blackColor()
+            backgroundView.backgroundColor = UIColor.black
         }
         backgroundView.frame = self.window.bounds
         backgroundView.alpha = 0
@@ -52,75 +52,75 @@ public class YHImageViewer: NSObject {
 
         let imageView = UIImageView(image: image)
         self.imageView = imageView
-        let startFrame = targetImageView.convertRect(targetImageView.bounds, toView: self.backgroundView)
+        let startFrame = targetImageView.convert(targetImageView.bounds, to: self.backgroundView)
         self.startFrame = startFrame
         imageView.frame = startFrame
         self.backgroundView.addSubview(imageView)
 
 
         // Initialize drag gesture recognizer
-        let imageDragRecognizer = UIPanGestureRecognizer(target: self, action: Selector("imageDragged:"))
-        self.imageView.userInteractionEnabled = true
+        let imageDragRecognizer = UIPanGestureRecognizer(target: self, action: #selector(YHImageViewer.imageDragged(_:)))
+        self.imageView.isUserInteractionEnabled = true
         self.imageView.addGestureRecognizer(imageDragRecognizer)
 
         // Initialize pinch gesture recognizer
-        let imagePinchRecognizer = UIPinchGestureRecognizer(target: self, action: Selector("imagePinched:"))
-        self.imageView.userInteractionEnabled = true
+        let imagePinchRecognizer = UIPinchGestureRecognizer(target: self, action: #selector(YHImageViewer.imagePinched(_:)))
+        self.imageView.isUserInteractionEnabled = true
         self.imageView.addGestureRecognizer(imagePinchRecognizer)
 
 
         // Start animation
-        UIView.animateWithDuration(self.fadeAnimationDuration, animations: { () -> Void in
+        UIView.animate(withDuration: self.fadeAnimationDuration, animations: { () -> Void in
             backgroundView.alpha = 1
-            }) { (_) -> Void in
+            }, completion: { (_) -> Void in
                 self.moveImageToCenter()
-        }
+        }) 
     }
 
     func moveImageToCenter() {
         if let imageView = self.imageView {
-            UIView.animateWithDuration(0.2, animations: { () -> Void in
+            UIView.animate(withDuration: 0.2, animations: { () -> Void in
                 let width = self.window.bounds.size.width
                 let height = width / imageView.image!.size.width * imageView.image!.size.height
-                self.imageView.frame.size = CGSizeMake(width, height)
+                self.imageView.frame.size = CGSize(width: width, height: height)
                 self.imageView.center = self.window.center
-                }) { (_) -> Void in
+                }, completion: { (_) -> Void in
                     self.adjustBoundsAndTransform(self.imageView)
-            }
+            }) 
         }
     }
 
-    func windowTapped(recognizer:UIGestureRecognizer) {
+    func windowTapped(_ recognizer:UIGestureRecognizer) {
         self.moveToFirstFrame { () -> Void in
             self.close()
         }
 //        self.debug()
     }
 
-    func imageDragged(recognizer:UIPanGestureRecognizer) {
+    func imageDragged(_ recognizer:UIPanGestureRecognizer) {
         switch (recognizer.state) {
-        case .Changed:
+        case .changed:
             // Move target view
             if let targetView = recognizer.view {
-                let variation = recognizer.translationInView(targetView)
-                targetView.center = CGPointMake(targetView.center.x + variation.x * targetView.transform.a, targetView.center.y + variation.y * targetView.transform.a)
+                let variation = recognizer.translation(in: targetView)
+                targetView.center = CGPoint(x: targetView.center.x + variation.x * targetView.transform.a, y: targetView.center.y + variation.y * targetView.transform.a)
 
-                let velocity = recognizer.velocityInView(targetView)
+                let velocity = recognizer.velocity(in: targetView)
             }
-            recognizer.setTranslation(CGPointZero, inView: recognizer.view)
+            recognizer.setTranslation(CGPoint.zero, in: recognizer.view)
 
-        case .Ended:
+        case .ended:
             // Check velocity
             if let targetView = recognizer.view {
-                let variation = recognizer.translationInView(targetView)
-                let velocity = recognizer.velocityInView(targetView)
+                let variation = recognizer.translation(in: targetView)
+                let velocity = recognizer.velocity(in: targetView)
                 let straightVelocity = sqrt(velocity.x * velocity.x + velocity.y * velocity.y)
                 let velocityThreshold = 1000
                 let goalPointRate = 5000.0
                 if straightVelocity > 1000 {
                     let radian = atan2(velocity.y, velocity.x)
-                    let goalPoint = CGPointMake(cos(radian) * CGFloat(goalPointRate), sin(radian) * CGFloat(goalPointRate))
-                    UIView.animateWithDuration(0.4, animations: { () -> Void in
+                    let goalPoint = CGPoint(x: cos(radian) * CGFloat(goalPointRate), y: sin(radian) * CGFloat(goalPointRate))
+                    UIView.animate(withDuration: 0.4, animations: { () -> Void in
                         targetView.center = goalPoint
                     }, completion: { (_) -> Void in
                         self.close()
@@ -135,16 +135,16 @@ public class YHImageViewer: NSObject {
         self.debug()
     }
 
-    func imagePinched(recognizer:UIPinchGestureRecognizer) {
+    func imagePinched(_ recognizer:UIPinchGestureRecognizer) {
         let targetView = recognizer.view!
         let scale = recognizer.scale
         let velocity = recognizer.velocity
-        let point = recognizer.locationInView(targetView)
+        let point = recognizer.location(in: targetView)
         switch (recognizer.state) {
-        case .Changed:
+        case .changed:
             let transform = targetView.transform.a
-            targetView.transform = CGAffineTransformMakeScale(scale, scale)
-        case .Ended , .Cancelled:
+            targetView.transform = CGAffineTransform(scaleX: scale, y: scale)
+        case .ended , .cancelled:
             let center = targetView.center
             self.adjustBoundsAndTransform(targetView)
             self.adjustImageViewFrame()
@@ -155,30 +155,30 @@ public class YHImageViewer: NSObject {
     }
 
     func close() {
-        UIView.animateWithDuration(self.fadeAnimationDuration, animations: { () -> Void in
+        UIView.animate(withDuration: self.fadeAnimationDuration, animations: { () -> Void in
             self.backgroundView.alpha = 0
-            }) { (_) -> Void in
+            }, completion: { (_) -> Void in
                 self.window = nil
-        }
+        }) 
     }
 
-    func moveToFirstFrame(completion: () -> Void) {
-        UIView.animateWithDuration(0.2, animations: { () -> Void in
+    func moveToFirstFrame(_ completion: @escaping () -> Void) {
+        UIView.animate(withDuration: 0.2, animations: { () -> Void in
             self.imageView.frame = self.startFrame
-            }) { (_) -> Void in
+            }, completion: { (_) -> Void in
                 completion()
-        }
+        }) 
     }
 
     func debug() {
 //        println("frame: \(self.imageView.frame) bounds: \(self.imageView.bounds) center: \(self.imageView.center) transform: \(self.imageView.transform.a)")
     }
 
-    func adjustBoundsAndTransform(view: UIView) {
+    func adjustBoundsAndTransform(_ view: UIView) {
         let center = view.center
         let scale = view.transform.a
-        view.bounds.size = CGSizeMake(view.bounds.size.width * scale, view.bounds.size.height * scale)
-        view.transform = CGAffineTransformMakeScale(1.0, 1.0)
+        view.bounds.size = CGSize(width: view.bounds.size.width * scale, height: view.bounds.size.height * scale)
+        view.transform = CGAffineTransform(scaleX: 1.0, y: 1.0)
         view.center = center
     }
 
@@ -199,30 +199,30 @@ public class YHImageViewer: NSObject {
 
         let targetView = self.imageView
 
-        var originX:CGFloat = targetView.frame.origin.x
-        var originY:CGFloat = targetView.frame.origin.y
+        var originX:CGFloat = targetView!.frame.origin.x
+        var originY:CGFloat = targetView!.frame.origin.y
         var animateX = true
         var animateY = true
-        if (targetView.frame.origin.x > 0) {
+        if (targetView!.frame.origin.x > CGFloat(0) ) {
             originX = 0
-        } else if (targetView.frame.origin.x < self.window.bounds.width - targetView.bounds.size.width) {
-            originX = self.window.bounds.width - targetView.bounds.size.width
+        } else if ((targetView?.frame.origin.x)! < self.window.bounds.width - (targetView?.bounds.size.width)!) {
+            originX = self.window.bounds.width - (targetView?.bounds.size.width)!
         }else {
             animateX = false
         }
-        if (targetView.bounds.size.height < self.window.bounds.size.height) {
-            originY = (self.window.bounds.size.height - targetView.bounds.size.height)/2
-        } else if targetView.frame.origin.y > 0{
+        if ((targetView?.bounds.size.height)! < self.window.bounds.size.height) {
+            originY = (self.window.bounds.size.height - (targetView?.bounds.size.height)!)/2
+        } else if targetView!.frame.origin.y > CGFloat(0) {
             originY = 0
-        } else if targetView.frame.origin.y + targetView.bounds.size.height < self.window.bounds.height {
-            originY = self.window.bounds.size.height - targetView.bounds.size.height
+        } else if (targetView?.frame.origin.y)! + (targetView?.bounds.size.height)! < self.window.bounds.height {
+            originY = self.window.bounds.size.height - (targetView?.bounds.size.height)!
         }
         else {
             animateY = false
         }
         if animateX || animateY {
-            UIView.animateWithDuration(0.2, animations: { () -> Void in
-                targetView.frame = CGRectMake(originX, originY, targetView.bounds.size.width, targetView.bounds.size.height)
+            UIView.animate(withDuration: 0.2, animations: { () -> Void in
+                targetView?.frame = CGRect(x: originX, y: originY, width: (targetView?.bounds.size.width)!, height: (targetView?.bounds.size.height)!)
                 }, completion: { (_) -> Void in
 
             })
